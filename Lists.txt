@@ -1,0 +1,172 @@
+# Creating a List
+List = []
+print("Blank List: ")
+print(List)
+---------------------------------------------------------------------------------------------------------------------------
+ 
+# Creating a List of numbers
+List = [10, 20, 14]
+print("\nList of numbers: ")
+print(List)
+--------------------------------------------------------------------------------------------------------------------------
+ 
+# Creating a List of strings and accessing
+# using index
+List = ["1", "and", "2"]
+print("\nList Items: ")
+print(List[0])
+print(List[2])
+-----------------------------------------------------------------------------------------------------------------------
+
+
+# Accessing of element from list
+ 
+List = ["Nishtha", 1", "Agarwal"]
+ 
+# Accessing a element from the
+# list using index number
+print("Accessing a element from the list")
+print(List[0])
+print(List[2])
+--------------------------------------------------------------------------------------------------------------------------
+
+
+List = [1, 2, 'G', 4, 'to', 6, 'H']
+ 
+# Accessing an element using
+
+print("Accessing element using negative indexing")
+ 
+# print the last element of list
+print(List[-1])
+ 
+# print the third last element of list
+print(List[-3])
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+# Creating a List and getting its length
+List1 = []
+print(len(List1)
+---------------------------------------------------------------------------------------------------------------------------
+
+#Append method for list for adding a asingle element
+# Creating a List
+List = []
+print("Initial blank List: ")
+print(List)
+ 
+# Addition of Elements
+# in the List
+List.append(1)
+List.append(2)
+List.append(4)
+print("\nList after Addition of Three elements: ")
+print(List)
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# Creating a List
+List = [1,2,3,4]
+print("Initial List: ")
+print(List)
+ 
+# Addition of Element at 
+# specific Position
+# (using Insert Method)
+List.insert(3, 12)
+List.insert(0, 'Nish')
+print("\nList after performing Insert Operation: ")
+print(List)
+----------------------------------------------------------------------------------------------------------------------------
+#Reversing a list
+mylist = [1, 2, 3, 4, 5, 'Nishtha', 'Python']
+mylist.reverse()
+print(mylist)
+
+---------------------------------------------------------------------------------------------------------------------------
+#Remove item from list
+# Creating a List
+List = [1, 2, 3, 4, 5, 6,
+        7, 8, 9, 10, 11, 12]
+print("Initial List: ")
+print(List)
+ 
+# Removing elements from List
+# using Remove() method
+List.remove(5)
+List.remove(6)
+print("\nList after Removal of two elements: ")
+print(List)
+----------------------------------------------------------------------------------------------------------------------------
+#Pop method of List
+List = [1, 2, 3, 4, 5]
+ 
+# Removing element from the
+# Set using the pop() method
+List.pop()
+print("\nList after popping an element: ")
+print(List)
+ 
+# Removing element at a
+# specific location from the
+# Set using the pop() method
+List.pop(2)
+print("\nList after popping a specific element: ")
+print(List)
+------------------------------------------------------------------------------------------------------------------------------
+
+# Creating a List
+List = ['G', 'R', 'E', 'A', 'T', 'W',
+        'A', 'L', 'L', 'O', 'F', 'C', 'H']
+print("Initial List: ")
+print(List)
+ 
+# Print elements of a range
+# using Slice operation
+Sliced_List = List[3:8]
+print("\nSlicing elements in a range 3-8: ")
+print(Sliced_List)
+ 
+# Print elements from a
+# pre-defined point to end
+Sliced_List = List[5:]
+print("\nElements sliced from 5th "
+      "element till the end: ")
+print(Sliced_List)
+ 
+# Printing elements from
+# beginning till end
+Sliced_List = List[:]
+print("\nPrinting all elements using slice operation: ")
+print(Sliced_List)
+
+
+# Creating a List
+List = ['G', 'E', 'E', 'K', 'S', 'F',
+        'O', 'R', 'G', 'E', 'E', 'K', 'S']
+print("Initial List: ")
+print(List)
+ 
+# Print elements of a range
+# using Slice operation
+Sliced_List = List[3:8]
+print("\nSlicing elements in a range 3-8: ")
+print(Sliced_List)
+ 
+# Print elements from a
+# pre-defined point to end
+Sliced_List = List[5:]
+print("\nElements sliced from 5th "
+      "element till the end: ")
+print(Sliced_List)
+--------------------------------------------------------------------------------------------------------------------------
+# Printing elements from
+# beginning till end
+Sliced_List = List[:]
+print("\nPrinting all elements using slice operation: ")
+print(Sliced_List)
+---------------------------------------------------------------------------------------------------------------------------
+
+
