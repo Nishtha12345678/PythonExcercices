@@ -1,0 +1,112 @@
+
+'''def say_hello(name='Default'):
+    print(f'hello {name}')
+
+say_hello()'''
+
+
+'''def add_num(num1,num2):
+    return num1+num2
+res=add_num(10,20)
+print(res)'''
+
+'''def even_num(num):
+    return num%2==0
+
+res=even_num(3)
+print(res)'''
+
+
+# Return true if any number inside a list is even
+
+
+'''def even_check_list(num_list):
+   for num in num_list:
+       if num%2==0:
+           return True
+       else:
+           pass
+res=even_check_list([1,2,3,4])
+print(res)'''
+
+
+'''#Return a alist of even numbers
+
+def even_check_list(num_list):
+   empty_list=[]
+   for num in num_list:
+       if num%2==0:
+           empty_list.append(num)
+       else:
+           pass
+   return(empty_list)
+res=even_check_list([1,2,3,4])
+print(res)'''
+
+
+'''stock_prices=[('APPL',200),('GOOG',400),('MSFT',100)]
+for item in stock_prices:
+    print(item)
+for ticker,price in stock_prices:
+    print(price+(0.1*price))'''
+
+# Return employee of the month and number of hours that he has worked
+
+'''work_hours=[('Nishtha',100),('Neha',500),('Neenu',2000)]
+def working_hours(work_hours):
+    current_max=0
+    employee_of_the_month=''
+    for employee,hours in work_hours:
+        if hours>current_max:
+            current_max=hours
+            employee_of_the_month=employee
+
+    return current_max,employee_of_the_month
+res=working_hours(work_hours)
+print(res)'''
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+from random import shuffle
+
+
+'''shuffle(example)
+print(example)'''
+example=[1,2,3,4,5,6,7]
+def shuffle_list(mylist):
+    shuffle(mylist)
+    return mylist
+
+result=shuffle_list(example)
+print(result)
+
+mylist=['','0','']
+res=shuffle_list(mylist)
+print(res)
+
+def player_guess():
+    guess=''
+    while guess not in ['1','2','3']:
+        guess=input('Enter either position 0,1,or 2')
+    return int(guess)
+my_index=player_guess()
+
+player_guess()
+
+def check_guess(mylist,guess):
+    if mylist[guess]=='O':
+        print('Correct')
+    else:
+        print('Wrong')
+        print(mylist)
+#INITIAL list
+mylist = ['','O','']
+#SHUFFLE LIST
+mixedup_list=shuffle_list(mylist)
+
+#user guess
+guess=player_guess()
+
+#CHECK GUESS
+check_guess(mixedup_list,guess)
