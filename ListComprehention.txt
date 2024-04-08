@@ -1,0 +1,47 @@
+
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+uppercased_fruits= [x.upper() for x in fruits]
+print(uppercased_fruits)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+capitalized_fruits= [x.capitalize() for x in fruits]
+print(capitalized_fruits)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+vowels='aeiou'
+fruits_with_more_than_two_vowels=[x for x in fruits if sum(1 for char in x if char in vowels)>2]
+print(fruits_with_more_than_two_vowels)'''
+
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+vowels='aeiou'
+fruits_with_more_than_two_vowels=[x for x in fruits if sum(1 for char in x if char in vowels)==2]
+print(fruits_with_more_than_two_vowels)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits_with_more_than_5_letters=[x for x in fruits if len(x)>5]
+print(fruits_with_more_than_5_letters)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits_with_more_than_5_letters=[x for x in fruits if len(x)==5]
+print(fruits_with_more_than_5_letters)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits_with_more_than_5_letters=[x for x in fruits if len(x)<5]
+print(fruits_with_more_than_5_letters)'''
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits_with_more_than_5_letters=[len(x) for x in fruits]
+print(fruits_with_more_than_5_letters)'''
+
+
+'''fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits_with_a=[ x for x in fruits if x[0]=='a']
+print(fruits_with_a)'''
+
+
+
+
+
+
